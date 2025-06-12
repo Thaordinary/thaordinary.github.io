@@ -1,0 +1,54 @@
+body {background: yellow;}
+h1 {
+	color: red;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	word-spacing: 1em;
+	text-align: left;
+	font-family: Times;
+	text-decoration: underline;
+	font-size: 3em;
+	font-style: italic;
+	font-weight: bold;
+	width:50%;
+	background:rosybrown;
+	margin:auto;
+	text-align:center;
+	position:static;
+}
+h2 {
+	background:yellow;
+}
+#special {
+	color:blue;
+	background:red;
+}
+.highlighted {
+	color:blue;
+	background:orange;
+}
+.container {
+	display: flex;
+	gap:70%;
+	justify-content: space-between;
+	flex-wrap:wrap;
+}
+#cyan
+{
+	background: cyan;
+	border: 5px solid green;
+	padding:50px;
+	padding-top:50px;
+	margin:100px;
+}
+#green {
+	background: green;
+}
+h2 {font-style: italic;}
+p {color: #ff0000;}
+body {
+	background: url("image.png");
+	background-repeat: no-repeat;
+	background-size:center;
+	background-attachment: fixed;
+}
