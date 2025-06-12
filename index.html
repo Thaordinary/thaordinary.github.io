@@ -1,43 +1,74 @@
-<!doctype html>
-<html>
-	<head>
-		<title>CSS Playground</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
-	</head>
-	<body>
-		<h1> The big headings go here </h1>
-		<h2 style ="color:red"> The big headings go here </h2>
-		<h3> The big headings go here </h3>
-		<p> A line. </p>
-		<p> Another line. <br> Small break.</p>
-		<strong> Bold. </strong>
-		<u> Underline</u>.
-		<em> Italic. </em>
-		<ul>
-			<li> Apple </li>
-			<li> Banana </li>
-			<li> Orange </li>
-		</ul>
-		<ol>
-			<li> Apple </li>
-			<li> Banana </li>
-			<li> Orange </li>
-		</ol>
-		<img src= "https://www.charleskeith.com/dw/image/v2/BCWJ_PRD/on/demandware.static/-/Sites-ck-products/default/dw4282b0b3/images/hi-res/2025-L2-SL1-60280474-1-03-8.jpg?sw=1014&sh=1353" width= "200" height= "250" alt="TMUSLC" />
-		<form>
-			<p>
-				First name: <input type="text" name="firstname"><br>
-				Last name: <input type="text" name="lastname"><br>
-				<input type="submit" value="Submit"><br>
-			</p>
-			<p>
-				Username: <input type="text" name="firstname"><br>
-				Password: <input type= "password" name="pw" ><br>
-				Email: <input type= "email" name="em" ><br>
-				Date: <input type= "date" name="d" ><br>
-				<input type="submit" value="Submit"><br>
-			</p>
-		</form>	
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/b4qVpdEfNyk?si=wlcrw5BCVyurvoZI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cook With Favorite</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="hero">
+  </div>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="recipe.html">Our Latest Recipes</a></li>
+      <li><a href="https://www.instagram.com/cookwithknorr/?hl=en" target="_blank">Our Instagram</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="intro">
+      <h1>Cook with Knorr</h1>
+      <br>
+      <p>We have hundreds of recipes that are simply delicious.</p>
+      <br>
+      <p>Get ready to get cooking!</p>
+    </section>
+
+    <section class="features">
+        <a href="https://www.instagram.com/p/C4LnL2lqPeI/?hl=en" target="_blank" class="card-link">
+            <div class="card">
+                <img src="images/Vietnamese.png" alt="Vietnamese Cuisine">
+                <h3>Vietnamese Cuisine</h3>
+            </div>
+        </a>
+        <a href="https://www.instagram.com/p/C7FC9PvvWe3/?hl=en" target="_blank" class="card-link">
+            <div class="card">
+                <img src="images/Filipino.png" alt="Filipino Cuisine">
+                <h3>Filipino Cuisine</h3>
+            </div>
+        </a>
+        <a href="https://www.instagram.com/p/C-dLWwJOSeT/?hl=en" target="_blank" class="card-link">
+            <div class="card">
+                <img src="images/Mexican.png" alt="Mexican Cuisine">
+                <h3>Mexican Cuisine</h3>
+            </div>
+        </a>
+        <a href="https://www.instagram.com/p/C9kejyWtVGm/?hl=en&img_index=1" target="_blank" class="card-link">
+            <div class="card">
+                <img src="images/Chinese.png" alt="Chinese Cuisine">
+                <h3>Chinese Cuisine</h3>
+            </div>
+        </a>
+        <a href="https://www.instagram.com/p/C9aLdGcpP43/?hl=en" target="_blank" class="card-link">
+            <div class="card">
+                <img src="images/Taiwanese.png" alt="Taiwanese Cuisine">
+                <h3>Taiwanese Cuisine</h3>
+            </div>
+        </a>
+        <a href="https://www.instagram.com/p/C3--nTMPF0Q/?hl=en" target="_blank" class="card-link">
+            <div class="card">
+                <img src="images/Hongkong.png" alt="Hongkong Cuisine">
+                <h3>Hongkong Cuisine</h3>
+            </div>
+        </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    &copy; 2025 Cook With Knorr
+  </footer>
+</body>
 </html>
+
